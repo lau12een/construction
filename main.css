@@ -1,7 +1,5 @@
 /*
-
-
-    Background color:       #3a4a58
+Background color:       #3a4a58
     Title color:            #996633
     Text color:             #666666
     Text Dark color:        #333333
@@ -154,11 +152,8 @@ hr {
   text-align: center;
   margin-top: 30px;
 }
-
-
 .mm-social-icons i { font-size: 1.2rem; }
 .mm-social-link-container { display: inline-block; }
-
 /*
 .mm-social-link {
   color: white;
@@ -173,18 +168,14 @@ hr {
   text-decoration: none;
   transition: all 0.3s ease;
 }
-
 .mm-social-link:hover { background-color: #808e9e; }
-
 .mm-contact-link {
   color: #333333;
   font-weight: 600;
   text-decoration: none;
 }
-
 a { transition: all 0.3s ease; }
 .mm-contact-link:hover { color: #808e9e; }
-
 */
 
 .mm-footer-text {
@@ -234,4 +225,3 @@ a { transition: all 0.3s ease; }
     margin-bottom: 0;
       line-height: 1;}
   }
-}
