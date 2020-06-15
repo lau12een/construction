@@ -116,7 +116,10 @@ td {
   padding: 15px 25px;*/
 }
 
-.mm-text-left { text-align: center; }
+.mm-text-left { 
+    text-align: center;
+    width: 100%
+}
 
 th {
   color: #333333;
