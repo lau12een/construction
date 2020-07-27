@@ -21,8 +21,25 @@ body {
 }
 
 
+/* unvisited link */
+a:link {
+  color: #666666;
+}
 
+/* visited link */
+a:visited {
+  color: #3a4a58;
+}
 
+/* mouse over link */
+a:hover {
+  color: #333333;
+}
+
+/* selected link */
+a:active {
+  color: #C4CDD6;
+}
 /* Navigation Bar Across Top */
 .navBar {
     display: flex; 
@@ -57,6 +74,10 @@ nav li {
     display: inline;
     padding-right: 10px;
     padding-left: 10px;
+}
+
+h1 {
+    font-weight: bold;
 }
 
 .mm-container {
@@ -100,7 +121,7 @@ nav li {
 .mm-section-header {
   color: #996633;
   text-align: center;
-  font-weight: 400;
+  /*font-weight: 400; */
   font-size: 1.5rem;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -193,10 +214,12 @@ hr {
 /* Gallery */
 /* The grid: Four equal columns that floats next to each other */
 .column {
-  float: left;
+ float:left;
   width: 10%; 
   height: 10%;
   padding: 5px;
+
+
 }
 
 /* Style the images inside the grid */
@@ -239,6 +262,23 @@ hr {
   color: white;
   font-size: 35px;
   cursor: pointer;
+}
+
+/* Style buttons */
+.btn {
+  background-color: #996633; /* burnt orange */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+
+
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: #666666;
 }
 /*
 .mm-social-icons {
